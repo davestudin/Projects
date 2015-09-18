@@ -1,0 +1,150 @@
+body 
+	{ 
+	background-color: #ffffcc;
+    background-image: none;
+    color: #330000;
+    font-family: Verdana,Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	}
+	
+#header 
+	{
+	background-image: url(Images/javalogomobile.gif);
+	background-position: center;
+	background-color: #ccaa66;
+	background-repeat: no-repeat;
+	height: 80px;
+    color: #000000; 
+    text-align: left;
+	margin: 0;  
+	}
+	
+#nav 
+	{	
+	text-align: center;
+    float: none;
+	width: 100%;
+	padding-top: 0;
+	margin-top: 0;
+	}
+	
+#nav a 
+	{ 
+	text-decoration: block; 
+    padding: 0.2em;	
+    font-size: 1.3em;
+    font-weight: bold;
+    border-bottom: 1px solid bold;	
+    margin: 0; 
+    }
+    
+#nav a:link { color: #996633; }
+#nav a:visited { color: #ccaa66; }
+#nav a:hover { color: #330000; }
+
+#nav ul 
+	{
+	list-style-type: none; 
+	padding: 0;
+	margin: 0;
+	}
+
+#footer 
+	{
+	background-color: #ccaa66;
+    color: #000000; 
+    font-size: .60em;
+    font-style: italic;
+	text-align: center;
+	padding-top: 0;
+	padding-bottom: 0;
+	clear: both;	  
+	}
+	
+#footer a:link { color: #f2eab7; }
+#footer a:visited { color: #ffffcc; }
+#footer a:hover { color: #330000; }
+
+#wrapper 
+	{ 
+	margin-left: 0;
+    margin-right: 0;
+    width: 100%;  
+	background-color: #ffffcc;
+	min-width: 0px;
+	-webkit-box-shadow: 5px 5px 5px #828282;
+	-moz-box-shadow: 5px 5px 5px #828282;
+	box-shadow: 5px 5px 5px #828282;
+	}
+
+h1
+	{
+	margin: 0;
+	text-indent: -99999px;
+	}
+	  
+h2 
+	{
+	text-transform: uppercase;
+    background-color: #ffffcc;
+    color: #663300;
+    font-size: 1.2em;
+    border-bottom: 1px solid #000000;
+	padding-top: 0.5em;
+	padding-right:0;
+	padding-left: 0.5em;
+	padding-bottom: 0;
+    margin-right: 0.5em;
+	clear: left; 
+	}
+	
+.details 
+	{
+	padding-left: 0;
+    padding-right: 0;
+	}
+	
+#content 
+	{
+	padding: 0.5em;
+    margin: 0;
+	background-color: #f2eab7;
+	color: #000000; 
+	}
+	
+.floatright 
+	{
+	display: none;
+	padding-left: 20px;
+    float: right; 
+    }  
+    
+.floatleft 
+	{
+	padding-right: 0.5em;
+    padding-bottom: 0.5em;
+	float: left;
+	}  
+
+img 
+	{
+	border-style: none;
+	}
+
+#mobile
+	{
+	display: inline;
+	}
+
+#desktop
+	{
+	display: none;
+	}
+
+
+
+
+
+
+
